@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  #corpo {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #130612 16.62%, #470e68 85.61%);
+  }
+
+  .cabecalho{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 25px;
+  }
+
+  .cab-img{
+      height: 150px;
+  }
+
+  .cab-menu{
+      display: flex;
+      gap: 30px;
+  }
+
+  .cab-menu-itens{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400px;
+      font-family: 'Fjalla One', sans-serif;
+  }
+
+  .cab-menu-itens:hover{
+      color: rgb(66, 184, 101);
+  }
+
+  .roxo{
+      height: 20px;
+      width: 20px;
+      background-color: #0a000f;
+      border: 0.5px solid #fff;
+      border-radius: 100%;
+      cursor: pointer;
+  }
+
+  .verde{
+    height: 20px;
+    width: 20px;
+    background-color: #15a02c;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+  .container{
+      margin-bottom: 30px;
+      border-top: 0.6px solid #363f31;
+  }
+
+  .container-princ{
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .container-princ-text{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .container-princ-titulo{
+      color: #fff;
+      font-family: 'Bebas Neue', cursive;
+      font-weight: 400;
+      font-size: 70px;
+
+  }
+
+  .container-princ-sub{
+      color: #fff;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+  }
+
+  .container-princ-botao{
+      height: 50px;
+      width: 120px;
+      border-radius: 15%; 
+      border: none;
+      background-color: #18992d;
+      cursor: pointer;
+  }
+
+  .container-princ-botao:hover{
+      background-color: #40f058;
+  }
+
+  .botao-link{
+      font-family: 'Fjalla One', sans-serif;
+      color: #fff;
+      font-size: 15px;
+  }
+
+
+  .container-princ-img{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+  }
+
+  .container-sec{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 48px;
+}
+
+.container-sec-titulo{
+    border-top: 0.8px solid #363f31;
+    padding-top: 48px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.container-sec-text{
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.borda{
+    border-top: 0.8px solid #363f31;
+    margin-bottom: 20px;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape-email{
+    padding-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+
+}
